@@ -18,6 +18,21 @@ A centralized, AI-enabled platform that automates case allocation, enforces SOP 
 - AI/ML: Python
 - UI: HTML/CSS/JS
 - Data: CSV / Database
+- ## Project Structure
+
+fedex-dca-ai-platformmm/
+│
+├── model/
+│   └── recovery_model.py        # AI logic for priority & recovery prediction
+│
+├── pipeline/
+│   └── case_allocator.py        # Case allocation & SLA logic
+│
+├── ui/
+│   └── app.py                   # Streamlit-based user interface
+│
+├── data/
+│   └── sample_data.csv          # Sample overdue case data
 
 ## Status
 Phase 1 – Concept design & initial prototype (Hackathon Round 1)
